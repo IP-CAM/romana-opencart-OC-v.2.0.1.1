@@ -1,32 +1,17 @@
 
 RO:
 
-Limba Romana pentru Opencart 2.0 - In curs de traducere
-
-Catalog - tradus complet.
-
-
-Foldere din admin deja traduse:
-
-Foldere din admin traduse partial:
-
-Foldere din admin de tradus:
-                      -toate
-
-
-
-
-
+Limba Romana pentru Opencart 2.0.x
 
 Instalare:
 
-Uploadeaza cele doua foldere din aceasta arhiva in folderul principa Opencart (cel in care sunt si fisierele htaccess.txt si config.php).
+Incarca fisierul limba-romana.ocmod.zip in admin prin Extension Installer. Daca ai probleme cu Installerul poti extrage arhiva si din interiorul arhivei urca folderele admin si catalog in radacina sitului tau opencart printrun client FTP (ex: Filezilla. Radacina sitului se refera la folderul in care este instalat opencart , de obice e public_html/)
 
-Logheaza-te in adminul siteului tau si navigheaza la System > Localisation > Languages
+In adminul siteului tau si navigheaza la System > Localisation > Languages
 
-Faceti click pe insert.
+Fa click pe insert.
 
-Completati formularul in felul urmator:(fara ghilimele)
+Completeaza formularul in felul urmator:(fara ghilimele)
 
 Language Name: "Romana"
 
@@ -38,8 +23,6 @@ Image: "ro.png"
 
 Directory: "romana"
 
-Filename: "romana"
-
 La status selectati enabled , si salvati.
 
 Pentru a face limba romana implicita pentru magazin , in admin navigati la System > Settings > Apasati edit pe magazinul default (si apoi si celelelte daca aveti mai multe).
@@ -48,13 +31,13 @@ In setari , navigati de la primul tab(general) , la cel de-al treilea tab (Local
 
 EN:
 
-Romanian language pack for opencart 2.0 - In course of translating
+Romanian language pack for opencart 2.0.x
 
 Installation: 
 
-Upload the 2 folders inside this archive directly in the opencart root (the one with the htaccess.txt and config.php files)
+Upload the limba-romana.ocmod.zip file trough opencart's extension installer in admin. If you have issues with the installer, you can extract the downloaded archive and upload the 2 admin and catalog folders to your opencart's root folder via a ftp client (like filezilla).
 
-Then log into your opencart admin and go to system > localisation > languages
+Then in opencart admin and go to system > localisation > languages
 
 Click Insert
 
@@ -70,12 +53,6 @@ Image: "ro.png"
 
 Directory: "romana"
 
-Filename: "romana"
-
 Select status enabled and hit save.
 
 To make the romanian language , the default one , in your admin go to system > settings > click edit on your store > the go to the tab Locat , select the language "romana" and hit save.
-
-
-
-

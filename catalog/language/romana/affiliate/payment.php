@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']             = 'Metoda de plată';
 
 // Text
@@ -12,7 +12,7 @@ $_['text_paypal']               = 'PayPal';
 $_['text_bank']                 = 'Transfer bancar';
 $_['text_success']              = 'Succes: Contul tău a fost actualizat cu succes.';
 
-// Intrări
+// Entry
 $_['entry_tax']                 = 'Cod TVA';
 $_['entry_payment']             = 'Metoda de plată';
 $_['entry_cheque']              = 'Nume beneficiar CEC';

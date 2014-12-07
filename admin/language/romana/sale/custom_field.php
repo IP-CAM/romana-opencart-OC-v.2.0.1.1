@@ -1,43 +1,49 @@
 <?php
 // Heading
-$_['heading_title']         = 'Custom Fields';
+$_['heading_title']         = 'Câmpuri Custom';
 
 // Text
-$_['text_success']          = 'Success: You have modified custom fields!';
-$_['text_choose']           = 'Choose';
+$_['text_success']          = 'Succes: Aui modificat câmpurile custom!';
+$_['text_list']             = 'Listă Câmpuri Custom';
+$_['text_add']              = 'Adaugă Câmp Custom';
+$_['text_edit']             = 'Editează Câmp Custom';
+$_['text_choose']           = 'Alege';
 $_['text_select']           = 'Select';
-$_['text_radio']            = 'Radio';
-$_['text_checkbox']         = 'Checkbox';
-$_['text_input']            = 'Input';
+$_['text_radio']            = 'Buton Radio';
+$_['text_checkbox']         = 'Casetă de selectare';
+$_['text_input']            = 'Câmp text';
 $_['text_text']             = 'Text';
-$_['text_textarea']         = 'Textarea';
-$_['text_file']             = 'File';
-$_['text_date']             = 'Date';
-$_['text_datetime']         = 'Date &amp; Time';
-$_['text_time']             = 'Time';
-$_['text_account']          = 'Account';
-$_['text_address']          = 'Address';
+$_['text_textarea']         = 'Arie Text';
+$_['text_file']             = 'Fişier';
+$_['text_date']             = 'Dată';
+$_['text_datetime']         = 'Dată &amp; oră';
+$_['text_time']             = 'Oră';
+$_['text_account']          = 'Cont';
+$_['text_address']          = 'Adresă';
 
 // Column
-$_['column_name']           = 'Custom Field Name';
-$_['column_location']       = 'Location';
-$_['column_type']           = 'Type';
-$_['column_sort_order']     = 'Sort Order';
-$_['column_action']         = 'Action';
+$_['column_name']           = 'Nume Câmp Custom';
+$_['column_location']       = 'Locație';
+$_['column_type']           = 'Tip';
+$_['column_sort_order']     = 'Ordine Sortare';
+$_['column_action']         = 'Acțiune';
 
 // Entry
-$_['entry_name']            = 'Custom Field Name';
-$_['entry_location']        = 'Location';
-$_['entry_type']            = 'Type';
-$_['entry_value']           = 'Value';
-$_['entry_custom_value']    = 'Custom Field Value Name';
-$_['entry_customer_group']  = 'Customer Group';
-$_['entry_required']        = 'Required';
+$_['entry_name']            = 'Nume Câmp Custom';
+$_['entry_location']        = 'Locație';
+$_['entry_type']            = 'Tip';
+$_['entry_value']           = 'Valoare';
+$_['entry_custom_value']    = 'Nume Valoare Câmp Custom';
+$_['entry_customer_group']  = 'Grup Client';
+$_['entry_required']        = 'Necesar';
 $_['entry_status']          = 'Status';
-$_['entry_sort_order']      = 'Sort Order';
+$_['entry_sort_order']      = 'Ordine Sortare';
+
+// Help
+$_['help_sort_order']       = 'Utilizează minus ca sa numeri înapoi de la ultimul câmp din set';
 
 // Error
-$_['error_permission']      = 'Warning: You do not have permission to modify custom fields!';
-$_['error_name']            = 'Customer Field Name must be between 1 and 128 characters!';
-$_['error_type']            = 'Warning: Custom Field Values required!';
-$_['error_custom_value']    = 'Custom Value Name must be between 1 and 128 characters!';
+$_['error_permission']      = 'Eroare: Nu ai permisiunile necesare pentru a modifica această pagină. Contactează administratorul pentru asistență. Daca ești administrator mergi in admin la grupuri de utilizatori și actualizează permisiunile!';
+$_['error_name']            = 'Numele câmpului custom trebuie sa conțină între 1 și 128 de caractere!';
+$_['error_type']            = 'Avertisment: Valori Câmpuri Custom necesare!';
+$_['error_custom_value']    = 'Numele Calorii câmpului custom trebuie sa conțină între 1 și 128 de caractere!';

@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']    = 'Cumpără un voucher cadou';
 
 // Text
@@ -19,7 +19,7 @@ $_['entry_theme']      = 'Tema voucherului cadou';
 $_['entry_message']    = 'Mesaj';
 $_['entry_amount']     = 'Valoare';
 
-// Ajutor
+// Help
 $_['help_message']     = 'Opțional';
 $_['help_amount']      = 'Valoarea trebuie să fie între %s și %s';
 

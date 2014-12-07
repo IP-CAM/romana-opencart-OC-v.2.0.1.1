@@ -1,5 +1,5 @@
 <?php
-// Titlu 
+// Heading
 $_['heading_title']    = 'Contul meu';
 
 // Text

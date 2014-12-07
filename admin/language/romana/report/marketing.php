@@ -1,18 +1,19 @@
 <?php
 // Heading
-$_['heading_title']    = 'Marketing Report';
+$_['heading_title']    = 'Raport Marketing';
 
 // Text
-$_['text_all_status']   = 'All Statuses';
+$_['text_list']         = 'Listă Marketing';
+$_['text_all_status']   = 'Toate Statusurile';
 
 // Column
-$_['column_campaign']  = 'Campaign Name';
-$_['column_code']      = 'Code';
-$_['column_clicks']    = 'Clicks';
-$_['column_orders']    = 'No. Orders';
+$_['column_campaign']  = 'Nume Campanie';
+$_['column_code']      = 'Cod';
+$_['column_clicks']    = 'Click-uri';
+$_['column_orders']    = 'Număr  Comenzi';
 $_['column_total']     = 'Total';
 
 // Entry
-$_['entry_date_start'] = 'Date Start';
-$_['entry_date_end']   = 'Date End';
-$_['entry_status']     = 'Order Status';
+$_['entry_date_start'] = 'Data Începerii';
+$_['entry_date_end']   = 'Data Încheierii';
+$_['entry_status']     = 'Statusul comenzii';

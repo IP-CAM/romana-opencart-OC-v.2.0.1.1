@@ -1,78 +1,73 @@
 <?php
-//Headings
-$_['heading_title']                     = 'Search Transactions';
-$_['text_pp_express']                   = 'PayPal Express Checkout';
+// Heading
+$_['heading_title']					= 'Căută Tranzacţii';
 
-//Table column
-$_['tbl_column_date']                   = 'Date';
-$_['tbl_column_type']                   = 'Type';
-$_['tbl_column_email']                  = 'Email';
-$_['tbl_column_name']                   = 'Name';
-$_['tbl_column_transid']                = 'Transaction ID';
-$_['tbl_column_status']                 = 'Status';
-$_['tbl_column_currency']               = 'Currency';
-$_['tbl_column_amount']                 = 'Amount';
-$_['tbl_column_fee']                    = 'Fee';
-$_['tbl_column_netamt']                 = 'Net Amount';
-$_['tbl_column_action']                 = 'Action';
+// Column
+$_['tbl_column_date']				= 'Dată';
+$_['tbl_column_type']				= 'Tip';
+$_['tbl_column_email']				= 'Email';
+$_['tbl_column_name']				= 'Nume';
+$_['tbl_column_transid']			= 'ID Tranzacție';
+$_['tbl_column_status']				= 'Status';
+$_['tbl_column_currency']			= 'Valută';
+$_['tbl_column_amount']				= 'Suma';
+$_['tbl_column_fee']				= 'Comision';
+$_['tbl_column_netamt']				= 'Suma netă';
+$_['tbl_column_action']				= 'Actiune';
 
-//Button
-$_['btn_search']                        = 'Search';
-$_['btn_edit_search']                   = 'Edit search';
+// Text
+$_['text_pp_express']				= 'PayPal Express';
+$_['text_date_search']				= 'Căuta după dată';
+$_['text_searching']				= 'Se caută';
+$_['text_name']						= 'Nume';
+$_['text_buyer_info']				= 'Informații Cumparator';
+$_['text_view']						= 'Vizualizează';
+$_['text_format']					= 'Format';
 
-//Form entry status
-$_['entry_status_all']                  = 'All';
-$_['entry_status_pending']              = 'Pending';
-$_['entry_status_processing']           = 'Processing';
-$_['entry_status_success']              = 'Success';
-$_['entry_status_denied']               = 'Denied';
-$_['entry_status_reversed']             = 'Reversed';
-
-//Form entry
-$_['entry_trans_all']                   = 'All';
-$_['entry_trans_sent']                  = 'Sent';
-$_['entry_trans_received']              = 'Received';
-$_['entry_trans_masspay']               = 'Mass Pay';
-$_['entry_trans_money_req']             = 'Money Request';
-$_['entry_trans_funds_add']             = 'Funds Added';
-$_['entry_trans_funds_with']            = 'Funds Withdrawn';
-$_['entry_trans_referral']              = 'Referral';
-$_['entry_trans_fee']                   = 'Fee';
-$_['entry_trans_subscription']          = 'Subscription';
-$_['entry_trans_dividend']              = 'Dividend';
-$_['entry_trans_billpay']               = 'Bill Pay';
-$_['entry_trans_refund']                = 'Refund';
-$_['entry_trans_conv']                  = 'Currency Conversion';
-$_['entry_trans_bal_trans']             = 'Balance Transfer';
-$_['entry_trans_reversal']              = 'Reversal';
-$_['entry_trans_shipping']              = 'Shipping';
-$_['entry_trans_bal_affect']            = 'Balance Affecting';
-$_['entry_trans_echeque']               = 'E Check';
-$_['entry_date']                        = 'Date';
-$_['entry_date_start']                  = 'Start';
-$_['entry_date_end']                    = 'End';
-$_['entry_date_to']                     = 'to';
-$_['entry_transaction']                 = 'Transaction';
-$_['entry_transaction_type']            = 'Type';
-$_['entry_transaction_status']          = 'Status';
-$_['entry_email']                       = 'Email';
-$_['entry_email_buyer']                 = 'Buyer';
-$_['entry_email_merchant']              = 'Receiver';
-$_['entry_receipt']                     = 'Receipt ID';
-$_['entry_transaction_id']              = 'Transaction ID';
-$_['entry_invoice_no']                  = 'Invoice number';
-$_['entry_auction']                     = 'Auction item number';
-$_['entry_amount']                      = 'Amount';
-$_['entry_profile_id']                  = 'Profile ID';
-$_['entry_salutation']                  = 'Salutation';
-$_['entry_firstname']                   = 'First';
-$_['entry_middlename']                  = 'Middle';
-$_['entry_lastname']                    = 'Last';
-$_['entry_suffix']                      = 'Suffix';
-
-//Text
-$_['text_searching']                    = 'Searching';
-$_['text_name']                         = 'Name';
-$_['text_buyer_info']                   = 'Buyer information';
-$_['text_view']                         = 'View';
-?>
+// Entry
+$_['entry_trans_all']				= 'Toate';
+$_['entry_trans_sent']				= 'Trimise';
+$_['entry_trans_received']			= 'Primite';
+$_['entry_trans_masspay']			= 'Plata în masă';
+$_['entry_trans_money_req']			= 'Cere Bani';
+$_['entry_trans_funds_add']			= 'Funds Added';
+$_['entry_trans_funds_with']		= 'Fonduri retrase';
+$_['entry_trans_referral']			= 'Referal';
+$_['entry_trans_fee']				= 'Comision';
+$_['entry_trans_subscription']		= 'Abonament';
+$_['entry_trans_dividend']			= 'Dividende';
+$_['entry_trans_billpay']			= 'Plată Factură';
+$_['entry_trans_refund']			= 'Restituire';
+$_['entry_trans_conv']				= 'Conversie valutară';
+$_['entry_trans_bal_trans']			= 'Transfer Balanță';
+$_['entry_trans_reversal']			= 'Inversare';
+$_['entry_trans_shipping']			= 'Livrare';
+$_['entry_trans_bal_affect']		= 'Afectare Balanță';
+$_['entry_trans_echeque']			= 'E Check';
+$_['entry_date']					= 'Dată';
+$_['entry_date_start']				= 'Start';
+$_['entry_date_end']				= 'Sfârşit';
+$_['entry_date_to']					= 'către';
+$_['entry_transaction']				= 'Tranzacție';
+$_['entry_transaction_type']		= 'Tip';
+$_['entry_transaction_status']		= 'Status';
+$_['entry_email']					= 'Email';
+$_['entry_email_buyer']				= 'Cumpărător';
+$_['entry_email_merchant']			= 'Receptor';
+$_['entry_receipt']					= 'ID Chitanță';
+$_['entry_transaction_id']			= 'ID Tranzacție';
+$_['entry_invoice_no']				= 'Numărul facturii';
+$_['entry_auction']					= 'Numărul articolului de la licitatie';
+$_['entry_amount']					= 'Valoare';
+$_['entry_recurring_id']			= 'ID Abonament';
+$_['entry_salutation']				= 'Formula de adresare';
+$_['entry_firstname']				= 'Primul';
+$_['entry_middlename']				= 'Mediu';
+$_['entry_lastname']				= 'Ultima';
+$_['entry_suffix']					= 'Sufix';
+$_['entry_status_all']				= 'Tot';
+$_['entry_status_pending']			= 'În aşteptare';
+$_['entry_status_processing']		= 'În procesare';
+$_['entry_status_success']			= 'Succes';
+$_['entry_status_denied']			= 'Negat';
+$_['entry_status_reversed']			= 'Reversat';

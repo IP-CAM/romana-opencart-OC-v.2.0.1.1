@@ -1,8 +1,8 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']  = 'Contactează-ne';
 
-// Text 
+// Text
 $_['text_location']  = 'Locația noastră';
 $_['text_store']     = 'Magazinele noastre fizice';
 $_['text_contact']   = 'Formular de contact';
@@ -11,9 +11,9 @@ $_['text_telephone'] = 'Telefon:';
 $_['text_fax']       = 'Fax:';
 $_['text_open']      = 'Program magazin';
 $_['text_comment']   = 'Comentarii';
-$_['text_message']   = '<p>Mesajul tău a fost trimis cu succes!</p>';
+$_['text_success']   = '<p>Mesajul tău a fost trimis cu succes către administratorul magazinului!</p>';
 
-// Intrări
+// Entry
 $_['entry_name']     = 'Nume';
 $_['entry_email']    = 'E-Mail';
 $_['entry_enquiry']  = 'Mesaj';
@@ -22,7 +22,7 @@ $_['entry_captcha']  = 'Introdu codul din imagine';
 // Email
 $_['email_subject']  = 'Mesaj %s';
 
-// Erori
+// Errors
 $_['error_name']     = 'Numele trebuie să conțină între 1 și 32 de caractere!';
 $_['error_email']    = 'Adresa de e-mail nu este validă!';
 $_['error_enquiry']  = 'Mesajul trebuie să conțină între 10 și 3000 de caractere!';

@@ -1,35 +1,38 @@
 <?php
 // Heading
-$_['heading_title']        = 'Extension Installer';
+$_['heading_title']        = 'Instalează Extensie';
 
 // Text
-$_['text_success']         = 'Success: You have installed your extension!';
-$_['text_unzip']           = 'Extracting files!';
-$_['text_ftp']             = 'Copying files!';
-$_['text_sql']             = 'Running SQL!';
-$_['text_xml']             = 'Applying modifications!';
-$_['text_php']             = 'Running PHP!';
-$_['text_remove']          = 'Removing temporary files!';
-$_['text_clear']           = 'Success: You have cleared all temporary files!';
+$_['text_success']         = 'Succes: Ai instalat extensia!';
+$_['text_unzip']           = 'Se extrag fişierele!';
+$_['text_ftp']             = 'Se copiază fișierele!';
+$_['text_sql']             = 'Se rulează SQL!';
+$_['text_xml']             = 'Se aplică modificările!';
+$_['text_php']             = 'Se rulează PHP!';
+$_['text_remove']          = 'Se șterg fișierele temporare!';
+$_['text_clear']           = 'Succes: Ai eliminat toate fişierele temporare!';
 
 // Entry
-$_['entry_upload']         = 'Upload file';
-$_['entry_overwrite']      = 'Files that will be overwritten';
-$_['entry_progress']       = 'Progress';
+$_['entry_upload']         = 'Încarcă Fişier';
+$_['entry_overwrite']      = 'Fişierele care vor fi suprascrise';
+$_['entry_progress']       = 'Progres';
 
 // Help
-$_['help_upload']          = 'Requires a Zip or XML modification file.';
+$_['help_upload']          = 'Necesită un fişier cu extensia ". ocmod.zip" sau ". ocmod.xml".';
 
 // Error
-$_['error_permission']     = 'Warning: You do not have permission to modify extensions!';
-$_['error_temporary']      = 'Warning: There are some temporary files that require deleting. Click the clear button to remove them!';
-$_['error_upload']         = 'File could not be uploaded!';
-$_['error_filetype']       = 'Invalid file type!';
-$_['error_file']           = 'File could not be found!';
-$_['error_unzip']          = 'Zip file could not be opened!';
-$_['error_directory']      = 'Directory containing files to be uploaded could not be found!';
-$_['error_ftp_connection'] = 'Could not connect as %s:%s';
-$_['error_ftp_login']      = 'Could not login as %s';
-$_['error_ftp_root']       = 'Could not set root directory as %s';
-$_['error_ftp_directory']  = 'Could not change to directory %s';
-$_['error_ftp_file']       = 'Could not upload file %s';
+$_['error_permission']     = 'Avertisment: Nu ai permisiunea să modifici extensiile!';
+$_['error_temporary']      = 'Avertisment: Există unele fişiere temporare care necesită ştergerea. Faceţi clic pe butonul Golire pentru a le elimina!';
+$_['error_upload']         = 'Fişierul nu poate fi încărcat!';
+$_['error_filetype']       = 'Tip de fişier invalid!';
+$_['error_file']           = 'Fișierul nu poate fi găsit!';
+$_['error_unzip']          = 'Fişierul zip este imposibil de deschis!';
+$_['error_code']           = 'Modificarea necesită un ID unic!';
+$_['error_exists']         = 'Modificarea %s folosește acelasi ID ca cea pe care încerci să o uploadezi!';
+$_['error_directory']      = 'Folderul care conține fișierele ce urmează a fi uploadate este imposibil de găsit!';
+$_['error_ftp_status']     = 'FTP-ul trebuie să fi activat în setări';
+$_['error_ftp_connection'] = 'Nu s-a putut conecta ca %s:%s';
+$_['error_ftp_login']      = 'Nu s-a putut loga ca %s';
+$_['error_ftp_root']       = 'Nu s-a putut seta folderul root ca %s';
+$_['error_ftp_directory']  = 'Nu s-a putut schimba la folderul %s';
+$_['error_ftp_file']       = 'Nu s-a putut uploada fişierul %s';

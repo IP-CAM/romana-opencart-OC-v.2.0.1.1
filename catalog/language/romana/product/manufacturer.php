@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']     = 'Găseşte producătorul tău favorit';
 
 // Text
@@ -9,10 +9,10 @@ $_['text_error']        = 'Producătorul nu a fost găsit!';
 $_['text_empty']        = 'Nu există niciun Producător.';
 $_['text_quantity']     = 'Cantitate:';
 $_['text_manufacturer'] = 'Producător:';
-$_['text_model']        = 'Cod Produs:'; 
-$_['text_points']       = 'Puncte de recompensă:'; 
-$_['text_price']        = 'Preţ:'; 
-$_['text_tax']          = 'Fără TVA:'; 
+$_['text_model']        = 'Cod Produs:';
+$_['text_points']       = 'Puncte de recompensă:';
+$_['text_price']        = 'Preţ:';
+$_['text_tax']          = 'Fără TVA:';
 $_['text_compare']      = 'Comparare produse (%s)';
 $_['text_sort']         = 'Sortare după:';
 $_['text_default']      = 'Implicit';

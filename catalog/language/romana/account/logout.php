@@ -1,5 +1,5 @@
 <?php
-// Titlu 
+// Heading
 $_['heading_title'] = 'Ieşire din cont';
 
 // Text

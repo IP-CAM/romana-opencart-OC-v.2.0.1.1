@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']        = 'Înregistrează un cont nou';
 
 // Text
@@ -12,7 +12,7 @@ $_['text_newsletter']      = 'Newsletter';
 $_['text_your_password']   = 'Parola';
 $_['text_agree']           = 'Am citit şi sunt de acord cu <a href="%s" class="agree"><b>%s</b></a>';
 
-// Intrări
+// Entry
 $_['entry_customer_group'] = 'Grupul de clienți';
 $_['entry_firstname']      = 'Prenume:';
 $_['entry_lastname']       = 'Nume:';
@@ -30,7 +30,7 @@ $_['entry_newsletter']     = 'Abonează-te:';
 $_['entry_password']       = 'Parolă:';
 $_['entry_confirm']        = 'Confirmă parola:';
 
-// Erori
+// Error
 $_['error_exists']         = 'Eroare: Adresa de e-mail există deja in baza noastră de date!';
 $_['error_firstname']      = 'Prenumele trebuie să conțină între 1 și 32 de caractere!';
 $_['error_lastname']       = 'Prenumele trebuie să conțină între 1 și 32 de caractere!';

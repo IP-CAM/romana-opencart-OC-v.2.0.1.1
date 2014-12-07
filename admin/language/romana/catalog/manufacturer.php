@@ -1,31 +1,34 @@
 <?php
 // Heading
-$_['heading_title']      = 'Producător';
+$_['heading_title']      = 'Producători';
 
 // Text
 $_['text_success']       = 'Succes: Ai modificat producătorii!';
+$_['text_list']          = 'Listă Producători';
+$_['text_add']           = 'Adaugă Producător';
+$_['text_edit']          = 'Editează Producător';
 $_['text_default']       = 'Implicit';
-$_['text_image_manager'] = 'Administratorul De Imagini';
-$_['text_browse']        = 'Adauga imagine';
-$_['text_clear']         = 'Sterge imagine';
 $_['text_percent']       = 'Procent';
 $_['text_amount']        = 'Sumă fixă';
 
 // Column
-$_['column_name']        = 'Numele Producătoruli';
-$_['column_sort_order']  = 'Ordinea';
-$_['column_action']      = 'Acțiune';
+$_['column_name']        = 'Nume Producători';
+$_['column_sort_order']  = 'Ordine Sortare';
+$_['column_action']      = 'Acţiune';
 
 // Entry
-$_['entry_name']         = 'Numele Producătorului:';
-$_['entry_store']        = 'Magazine:';
-$_['entry_keyword']      = 'Cuvinte SEO URL:<br/><span class="help">Nu utilizati spatii, in schimb inlocuiti-le cu - si aveti grija sa fie unice global</span>';
-$_['entry_image']        = 'Imagine:';
-$_['entry_sort_order']   = 'Ordinea:';
-$_['entry_type']         = 'Tipul:';
+$_['entry_name']         = 'Nume Producător';
+$_['entry_store']        = 'Magazine';
+$_['entry_keyword']      = 'Cuvant SEO';
+$_['entry_image']        = 'imagine';
+$_['entry_sort_order']   = 'Ordine Sortare';
+$_['entry_type']         = 'Tip';
+
+// Help
+$_['help_keyword']       = 'Nu folosii spații, in schimb inlocuiește spațiile cu - si asigură-te că acest cuvânt este unic global.';
 
 // Error
-$_['error_permission']   = 'Atenție: Nu ai permisiunea să modifici producătorii!';
-$_['error_name']         = 'Numele Producătorului trebuie să fie cuprins între 3 si 64 de caractere!';
-$_['error_product']      = 'Atenție: Producatorul nu poate fi șters deaorece este folosit de %s produse!';
-?>
+$_['error_permission']   = 'Avertisment: Nu aveţi permisiunea de a modifica producătorii!';
+$_['error_name']         = 'Numele producătorului trebuie să conțină între 2 și 64 de caractere!';
+$_['error_keyword']      = 'Cuvânt SEO deja folosit!';
+$_['error_product']      = 'Avertisment: Acest producător nu poate fi ștears pentru ca este în prezent asociat cu %s produse!';

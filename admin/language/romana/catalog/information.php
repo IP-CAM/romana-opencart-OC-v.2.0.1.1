@@ -1,33 +1,45 @@
 <?php
 // Heading
-$_['heading_title']     = 'Pagini de informatii';
+$_['heading_title']          = 'Informaţii';
 
 // Text
-$_['text_success']      = 'Succes: Ai modificat informația!';
-$_['text_default']      = 'Implicit';
+$_['text_success']           = 'Succes: Ai modificat paginile de informaţii!';
+$_['text_list']              = 'Listă informaţii';
+$_['text_add']               = 'Adaugă Pagină Informații';
+$_['text_edit']              = 'Editează Pagină Informații';
+$_['text_default']           = 'Implicit';
 
 // Column
-$_['column_title']      = 'Titlu';
-$_['column_sort_order']	= 'Ordinea';
-$_['column_action']     = 'Acțiune';
+$_['column_title']           = 'Titlu Pagini Informații';
+$_['column_sort_order']	     = 'Ordine Sortare';
+$_['column_action']          = 'Acţiune';
 
 // Entry
-$_['entry_title']       = 'Titlul Paginii de Informații:';
-$_['entry_description'] = 'Descriere:';
-$_['entry_store']       = 'Magazine:';
-$_['entry_keyword']     = 'Cuvinte SEO URL:<br/><span class="help">Nu utilizati spatii, in schimb inlocuiti-le cu - si aveti grija sa fie unice global</span>';
-$_['entry_bottom']      = 'Jos:<br/><span class="help">Afisarea legaturii spre pagina de informatii in meniul din footer.</span>';
-$_['entry_status']      = 'Status:';
-$_['entry_sort_order']  = 'Ordinea:';
-$_['entry_layout']      = 'Trecere Peste Aspect:<br/><span class="help">Implicit, o pagina de informatii afiseaza in pagina modulele care sunt asociate aspectului Informatii.Aici puteti seta ca aceasta pagina de informatii sa afiseze modulele asociate altui aspect la alegere.</span>';
+$_['entry_title']            = 'Titlu Pagină Informații';
+$_['entry_description']      = 'Descriere';
+$_['entry_store']            = 'Magazine';
+$_['entry_meta_title'] 	     = 'Meta Titlu';
+$_['entry_meta_keyword'] 	 = 'Meta Cuvinte Cheie';
+$_['entry_meta_description'] = 'Meta Descriere';
+$_['entry_keyword']          = 'Cuvant SEO';
+$_['entry_bottom']           = 'Afisează Jos';
+$_['entry_status']           = 'Status';
+$_['entry_sort_order']       = 'Ordine Sortare';
+$_['entry_layout']           = 'Rescriere Layout';
 
-// Error 
-$_['error_warning']     = 'Atenție: Vă rugăm, verificați cu atenție forumularul pentru erori';
-$_['error_permission']  = 'Atenție: Nu ai permisiunea să modifici informația!';
-$_['error_title']       = 'Titlul Informației trebuie sa fie cuprins intre 3 si 64 de caractere!';
-$_['error_description'] = 'Descripția trebuie sa fie intre 3 caractere!';
-$_['error_account']     = 'Atenție: Această pagină cu informații nu poate fi ștearsă deoarece este folosită ca și termenii contului de magazin!';
-$_['error_checkout']    = 'Atenție: Această pagină cu informații nu poate fi ștearsă deoarece este folosită ca și termenii de finalizare comandă a magazinului!';
-$_['error_affiliate']   = 'Atenție: Această pagină cu informații nu poate fi ștearsă deoarece este folosită ca si termenii de afiliat al magazinului!';
-$_['error_store']       = 'Atenție: Această pagină cu informații nu poate fi ștearsă deoarece este folosită de %s magazine!';
-?>
+// Help
+$_['help_keyword']           = 'Nu folosii spații, in schimb inlocuiește spațiile cu - si asigură-te că acest cuvânt este unic global.';
+$_['help_bottom']            = 'Afişare în subsolul paginii.';
+
+// Error
+$_['error_warning']          = 'Avertizare: Verifică formularul pentru erori!';
+$_['error_permission']       = 'Avertisment: Nu ai permisiunea de a modifica paginile de informaţii!';
+$_['error_title']            = 'Titlu paginii de informaţii trebuie să fie între 3 şi 64 de caractere!';
+$_['error_description']      = 'Descrierea trebuie să conțină mai mult de 3 caractere!';
+$_['error_meta_title']       = 'Meta titlul trebuie să contină între 3 și 255 caractere!';
+$_['error_keyword']          = 'Cuvântul SEO este deja folosit!';
+$_['error_account']          = 'Avertisment: Această pagină de informaţii nu poaet fi ştersă pentru că este în prezent asociată ca termeni ai contului!';
+$_['error_checkout']         = 'Avertisment: Această pagină de informaţii nu poaet fi ştersă pentru că este în prezent asociată ca termeni ai comenzii!';
+$_['error_affiliate']        = 'Avertisment: Această pagină de informaţii nu poaet fi ştersă pentru că este în prezent asociată ca termeni ai afilierii!';
+$_['error_return']           = 'Avertisment: Această pagină de informaţii nu poaet fi ştersă pentru că este în prezent asociată ca termeni ai returnarilor!';
+$_['error_store']            = 'Avertisment: Această pagină de informaţii nu poate fi ștersă pentru că este utiliză în prezent de %s magazine!';

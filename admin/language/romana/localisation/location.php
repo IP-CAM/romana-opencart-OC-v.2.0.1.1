@@ -1,35 +1,38 @@
 <?php
 // Heading
-$_['heading_title']    = 'Store Locations';
+$_['heading_title']    = 'Locații Magazine Fizice';
 
 // Text
-$_['text_success']     = 'Success: You have modified store locations!';
-$_['text_default']     = 'Default';
-$_['text_time']        = 'Opening Times';
-$_['text_geocode']     = 'Geocode was not successful for the following reason:';
+$_['text_success']     = 'Succes: Ai modificat locațiile magazinelor fizice!';
+$_['text_list']        = 'Listă Locații Magazine Fizice';
+$_['text_add']         = 'Adauga Locaţie magazin';
+$_['text_edit']        = 'Editează locaţie magazin';
+$_['text_default']     = 'Implicit';
+$_['text_time']        = 'Program de lucru';
+$_['text_geocode']     = 'Geocodul nu a avut succes deoarece:';
 
 // Column
-$_['column_name']      = 'Store Name';
-$_['column_address']   = 'Address';
-$_['column_action']    = 'Action';
+$_['column_name']      = 'Nume magazin';
+$_['column_address']   = 'Adresă';
+$_['column_action']    = 'Acţiune';
 
 // Entry
-$_['entry_name']       = 'Store Name';
-$_['entry_address']    = 'Address';
-$_['entry_geocode']    = 'Geocode';
-$_['entry_telephone']  = 'Telephone';
+$_['entry_name']       = 'Nume magazin';
+$_['entry_address']    = 'Adresă';
+$_['entry_geocode']    = 'Geocod';
+$_['entry_telephone']  = 'Telefon';
 $_['entry_fax']        = 'Fax';
-$_['entry_image']      = 'Image';
-$_['entry_open']       = 'Opening Times';
-$_['entry_comment']    = 'Comment';
+$_['entry_image']      = 'imagine';
+$_['entry_open']       = 'Program de Lucru';
+$_['entry_comment']    = 'Comentariu';
 
 // Help
-$_['help_geocode']     = 'Please enter your store location geocode manually.';
-$_['help_open']        = 'Fill in your stores opening times.';
-$_['help_comment']     = 'This field is for any special notes you would like to tell the customer i.e. Store does not accept cheques.';
+$_['help_geocode']     = 'Introdu geocodul locației magazinului manual.';
+$_['help_open']        = 'Completează programul de lucru.';
+$_['help_comment']     = 'Acest câmp poate fi folosit pentru afisarea oricaror informatii despre magazinul fizic.';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify store locations!';
-$_['error_name']       = 'Store name must be at least 1 character!';
-$_['error_address']    = 'Address must be between 3 and 128 characters!';
-$_['error_telephone']  = 'Telephone must be between 3 and 32 characters!';
+$_['error_permission'] = 'Eroare: Nu ai permisiunile necesare pentru a modifica această pagină. Contactează administratorul pentru asistență. Daca ești administrator mergi in admin la grupuri de utilizatori și actualizează permisiunile!';
+$_['error_name']       = 'Completează numele magazinului';
+$_['error_address']    = 'Adresa trebuie să conţină între 3 şi 128 caractere!';
+$_['error_telephone']  = 'Numărul de telefon trebuie să conţină intre 3 si 32 caractere!';

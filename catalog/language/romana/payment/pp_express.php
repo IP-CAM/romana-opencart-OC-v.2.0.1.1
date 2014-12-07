@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['express_text_title']		= 'Confirmă comanda';
 
 // Text

@@ -1,5 +1,5 @@
 <?php
-// Titlu 
+// Heading
 $_['heading_title']         = 'Istoricul comenzilor';
 
 // Text
@@ -19,7 +19,7 @@ $_['text_success']          = 'Ai adăugat cu succes <a href="%s">%s</a> în <a 
 $_['text_empty']            = 'Nu ai comenzi anterioare!';
 $_['text_error']            = 'Comanda care o cauţi, nu poate fi gasită!';
 
-// Coloane
+// Column
 $_['column_order_id']       = 'ID Comandă';
 $_['column_product']        = 'Nr.de produse';
 $_['column_customer']       = 'Client';
@@ -33,5 +33,5 @@ $_['column_date_added']     = 'Data Adaugării';
 $_['column_status']         = 'Statusul comenzii';
 $_['column_comment']        = 'Comentarii';
 
-// Erori
+// Error
 $_['error_reorder']         = '%s nu este disponibil momentan pentru comandă.';

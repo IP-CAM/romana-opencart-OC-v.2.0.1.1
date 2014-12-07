@@ -1,29 +1,30 @@
 <?php
 // Heading
-$_['heading_title']    = 'Grup De Clienti';
+$_['heading_title']     = 'Grup Clienți';
 
 // Text
-$_['text_success']     = 'Succes: ati modificat grupurile de clienti!!';
+$_['text_success']      = 'Succes: Ai modificat grupurile de clienți!';
+$_['text_list']         = 'Listă Grupuri Client';
+$_['text_add']          = 'Adaugă Grup Client';
+$_['text_edit']         = 'Editează Grup Client';
 
 // Column
-$_['column_name']      = 'Numele Grupului De clienti';
-$_['column_sort_order'] = 'Sortare Ordine';
-$_['column_action']    = 'Actiune';
+$_['column_name']       = 'Nume Grup Client';
+$_['column_sort_order'] = 'Ordine Sortare';
+$_['column_action']     = 'Acțiune';
 
 // Entry
-$_['entry_name']       = 'Numele Grupului De clienti:';
-$_['entry_description']         = 'Descriere:';
-$_['entry_approval']            = 'Aprobare Clienti (utilizatori) Noi:<br /><span class="help">Daca setati Da, fiecare nou cont creat in magazinul dvs va trebuii sa fie aprobat de catre dvs inainte ca utilizatorul sa se poata autentifica pe website.</span>';
-$_['entry_company_id_display']  = 'Afisarea Numarului Companiei:<br /><span class="help">Aceasta setare afiseaza campul numarul companiei in pagina de inregistrare a unui nou utilizator.</span>';
-$_['entry_company_id_required'] = 'Numarul Companiei Obligatoriu:<br /><span class="help">Aceasta setare face ca numarul companiei sa fie camp obligatoriu in formularul de inregistrare.</span>';
-$_['entry_tax_id_display']      = 'Afisare Cod TVA.:<br /><span class="help">Aceasta setare poate afisa campul Cod TVA in formularul de inregistrare.</span>';
-$_['entry_tax_id_required']     = 'Cod TVA Obligatoriu:<br /><span class="help">Aceasta setare face campul Cod TVA obligatoriu in formularul de inregistrare.</span>';
-$_['entry_sort_order']          = 'Sortare Ordine:';
+$_['entry_name']        = 'Nume Grup Client';
+$_['entry_description'] = 'Descriere';
+$_['entry_approval']    = 'Abrobă Clienții Noi';
+$_['entry_sort_order']  = 'Ordine Sortare';
+
+// Help
+$_['help_approval']     = 'Clienţii trebuie să fie aprobați de un administrator înainte ca aceștia să se poată autentifica.';
 
 // Error
-$_['error_permission'] = 'Atenție: nu aveți permisiunea sa modificati grupurile de clienti!';
-$_['error_name']       = 'Numele grupului de clienti trebuie sa aibă intre 3 si 64 de caactere!';
-$_['error_default']    = 'Atenție: Accest grup de clienti nu poate fi șters întrucat este atribuit ca find grupul de inmagazinare implicit!';
-$_['error_store']      = 'Atenție: Acest grup de clienti nu poate fi șters deoarece este atribuit %s magazine!';
-$_['error_customer']   = 'Atenție: Acest grup de clienti nu poate fi șters deoarece este atribuit %s onsumatori!';
-?>
+$_['error_permission']   = 'Eroare: Nu ai permisiunile necesare pentru a modifica această pagină. Contactează administratorul pentru asistență. Daca ești administrator mergi in admin la grupuri de utilizatori și actualizează permisiunile!';
+$_['error_name']         = 'Numele grupului de clienti trebuie sa conțină intre 3 si 32 de caractere!';
+$_['error_default']      = 'Atenție: Accest grup de clienți nu poate fi șters pentru că este grupul implicit al magazinului!';
+$_['error_store']        = 'Atenție: Acest grup de clienti nu poate fi șters deoarece este atribuit %s magazine!';
+$_['error_customer']     = 'Atenție: Acest grup nu poate fi șters deoarece este atribuit la %s clienți!';

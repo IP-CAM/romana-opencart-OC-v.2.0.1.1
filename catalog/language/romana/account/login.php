@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']                = 'Autentificare';
 
 // Text
@@ -12,10 +12,11 @@ $_['text_returning_customer']      = 'Sunt deja client';
 $_['text_i_am_returning_customer'] = 'Am cont deja';
 $_['text_forgotten']               = 'Am uitat parola';
 
-// Intrări
+// Entry
 $_['entry_email']                  = 'Adresa E-Mail';
 $_['entry_password']               = 'Parola';
 
-// Erori
+// Error
 $_['error_login']                  = 'Eroare: Datele de autentificare sunt greşite!';
+$_['error_attempts']               = 'Avertisment: Contul tău a depășit numărul permis de încercări de autentificare. Te rugăm să încerci din nou în 1 oră.';
 $_['error_approved']               = 'Eroare: Contul tău trebuie activat de către administrator ca sa te poţi autentifica .';

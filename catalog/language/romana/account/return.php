@@ -1,5 +1,5 @@
 <?php
-// Titlu 
+// Heading
 $_['heading_title']      = 'Returnări';
 
 // Text
@@ -20,7 +20,7 @@ $_['text_history']       = 'Istoricul returnării';
 $_['text_empty']         = 'Nu ai făcut nicio returnare anterioară!';
 $_['text_agree']         = 'Am citit și sunt de acord cu <a href="%s" aclass="agree"><b>%s</b></a>';
 
-// Coloane
+// Column
 $_['column_return_id']   = 'Numărul returnării';
 $_['column_order_id']    = 'Numărul comenzii';
 $_['column_status']      = 'Statusul';
@@ -35,7 +35,7 @@ $_['column_comment']     = 'Comentariu';
 $_['column_reason']      = 'Motivul';
 $_['column_action']      = 'Acţiune';
 
-// Intrări
+// Entry
 $_['entry_order_id']     = 'Numărul comenzii:';
 $_['entry_date_ordered'] = 'Data comenzii:';
 $_['entry_firstname']    = 'Prenume:';
@@ -50,7 +50,7 @@ $_['entry_opened']       = 'Produsul este deschis:';
 $_['entry_fault_detail'] = 'Defecte sau alte Detalii:';
 $_['entry_captcha']      = 'Introdu codul în căsuţa următoare:';
 
-// Erori
+// Error
 $_['text_error']         = 'Returnarea cerută nu a fost găsită!';
 $_['error_order_id']     = 'Numărul comenzii este necesar!';
 $_['error_firstname']    = 'Prenumele trebuie să conțină între 1 și 32 de caractere!';

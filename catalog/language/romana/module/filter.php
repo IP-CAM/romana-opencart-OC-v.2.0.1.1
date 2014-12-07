@@ -1,3 +1,3 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title'] = 'Filtre de căutare';

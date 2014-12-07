@@ -1,21 +1,13 @@
 <?php
 // Heading
-$_['heading_title']       = 'Cont';
+$_['heading_title']    = 'Cont';
 
-// Text
-$_['text_module']         = 'Module';
-$_['text_success']        = 'Succes: Ați modificat cu succes modulul cont!';
-$_['text_content_top']    = 'Conținutul De Sus';
-$_['text_content_bottom'] = 'Conținutul De Jos';
-$_['text_column_left']    = 'Coloana din stînga';
-$_['text_column_right']   = 'Coloana din Dreapta';
+$_['text_module']      = 'Module';
+$_['text_success']     = 'Succes: Ai modificat modulul cont!';
+$_['text_edit']        = 'Editează modulul Cont';
 
 // Entry
-$_['entry_layout']        = 'Layout:<br /><span style="color: #999;font-size: 12px;">pagina sau paginile in care se va afisa modulul</span>';
-$_['entry_position']      = 'Poziție:<br /><span style="color: #999;font-size: 12px;">poziția in care se va afisa modulul</span>';
-$_['entry_status']        = 'Status:<br /><span style="color: #999;font-size: 12px;">activează sau dezactivează modulul</span>';
-$_['entry_sort_order']    = 'Ordinea:<br /><span style="color: #999;font-size: 12px;">ordinea in care se afisează modulele intr-o poziție</span>';
+$_['entry_status']     = 'Status';
 
 // Error
-$_['error_permission']    = 'Atenție: Nu aveți permisiunea sa modficați modulele contului!';
-?>
+$_['error_permission'] = 'Eroare: Nu ai permisiunile necesare pentru a modifica această pagină. Contactează administratorul pentru asistență. Daca ești administrator mergi in admin la grupuri de utilizatori și actualizează permisiunile!';

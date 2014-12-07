@@ -1,16 +1,15 @@
 <?php
-// Heading 
-$_['heading_title']    = 'Fluxuri de produse';
+// Heading
+$_['heading_title']    = 'Feed-uri';
 
 // Text
-$_['text_install']     = 'Instalează';
-$_['text_uninstall']   = 'Dezinstalează';
+$_['text_success']     = 'Succes: Ai modificat feed-urile!';
+$_['text_list']        = 'Listă Feed-uri';
 
 // Column
-$_['column_name']      = 'Numele Fluxului de produse';
+$_['column_name']      = 'Nume Feed';
 $_['column_status']    = 'Status';
-$_['column_action']    = 'Acțiune';
+$_['column_action']    = 'Acţiune';
 
 // Error
-$_['error_permission'] = 'Atenție: Nu aveți permiiunea să modifcați feed-urile!';
-?>
+$_['error_permission'] = 'Avertisment: Nu ai permisiunea de a modifica feed-urile!';

@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title'] = 'Alege un magazin';
 
 // Text

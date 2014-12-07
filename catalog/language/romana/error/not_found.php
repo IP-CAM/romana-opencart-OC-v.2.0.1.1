@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title'] = 'Pagina nu a fost gasită!';
 
 // Text

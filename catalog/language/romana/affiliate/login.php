@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']                 = 'Program de afiliere';
 
 // Text
@@ -12,10 +12,11 @@ $_['text_returning_affiliate']      = 'Autentifică-te';
 $_['text_i_am_returning_affiliate'] = 'Sunt deja afiliat.';
 $_['text_forgotten']                = 'Am uitat parola';
 
-// Intrări
+// Entry
 $_['entry_email']                   = 'Email afiliat:';
 $_['entry_password']                = 'Parolă:';
 
-// Erori
+// Error
 $_['error_login']                   = 'Eroare: E-mail sau parolă incorectă.';
+$_['error_attempts']                = 'Avertisment: Contul tău a depășit numărul permis de încercări de autentificare. Te rugăm să încerci din nou în 1 oră.';
 $_['error_approved']                = 'Eroare: Contul tău trebuie să fie aprobat înainte să te poti autentifica.';

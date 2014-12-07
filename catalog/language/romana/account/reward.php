@@ -1,8 +1,8 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']      = 'Puncte de recompensă';
 
-// Coloane
+// Column
 $_['column_date_added']  = 'Data adăugării';
 $_['column_description'] = 'Descriere';
 $_['column_points']      = 'Puncte';

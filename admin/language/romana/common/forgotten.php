@@ -1,20 +1,19 @@
 <?php
 // header
-$_['heading_title']   = 'Ai Uitat Parola?';
+$_['heading_title']   = 'Ai uitat parola?';
 
 // Text
 $_['text_forgotten']  = 'Parolă Uitată';
-$_['text_your_email'] = 'Adresa Ta De E-mail';
-$_['text_email']      = 'Introduceți adresa de e-mail asociată cu contul dumneavoastră. Apăsați ca sa primiți prin e-mail un link pentru a vă reseta parola.';
-$_['text_success']    = 'Un e-mail cu linkul de confirmare a fost trimis pe adresa dumneavoastră.';
+$_['text_your_email'] = 'Adresa ta de e-mail';
+$_['text_email']      = 'Introdu adresa de e-mail asociată cu contul tău. Apasă ca să primești prin e-mail un link pentru a reseta parola.';
+$_['text_success']    = 'Un e-mail cu linkul de confirmare a fost trimis pe adresa ta de e-mail.';
 
 // Entry
-$_['entry_email']     = 'Adresa De E-mail:';
-$_['entry_password']  = 'Parolă Noua:';
-$_['entry_confirm']   = 'Confirmă:';
+$_['entry_email']     = 'Adresa de e-mail';
+$_['entry_password']  = 'Parola Noua';
+$_['entry_confirm']   = 'Confirmă';
 
 // Error
-$_['error_email']     = 'Atenție: Adresa de e-mail nu a fost găsită in baza noastră de date. Vă rugăm Încercați încă odată!';
-$_['error_password']  = 'Parola trebuie să fie între 3 si 20 de caractere!';
+$_['error_email']     = 'Avertisment: Adresa de e-mail nu a fost găsită in baza noastră de date. Te rugam sa incerci încă o dată!';
+$_['error_password']  = 'Parola trebuie să fie conțină 3 si 20 de caractere!';
 $_['error_confirm']   = 'Parola si confirmarea parolei nu corespund!';
-?>

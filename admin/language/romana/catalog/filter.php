@@ -3,20 +3,22 @@
 $_['heading_title']     = 'Filtre';
 
 // Text
-$_['text_success']      = 'Succes! Ai modificat filtrele!';
+$_['text_success']      = 'Succes: Ai modificat filtrele!';
+$_['text_list']         = 'Listă filtre';
+$_['text_add']          = 'Adaugă Filtru';
+$_['text_edit']         = 'Editează filtru';
 
 // Column
-$_['column_group']      = 'Grupul Filtrului';
-$_['column_sort_order'] = 'Ordinea de Sortare';
-$_['column_action']     = 'Acțiune';
+$_['column_group']      = 'Grupuri Filtre';
+$_['column_sort_order'] = 'Ordine Sortare';
+$_['column_action']     = 'Acțiuni';
 
 // Entry
-$_['entry_group']       = 'Numele Grupului:';
-$_['entry_name']        = 'Numele Filtrului:';
-$_['entry_sort_order']  = 'Ordinea de Sortare:';
+$_['entry_group']       = 'Nume Grup Filtre';
+$_['entry_name']        = 'Numele filtru';
+$_['entry_sort_order']  = 'Ordine Sortare';
 
 // Error
-$_['error_permission']  = 'Atentie: Nu ai permisiunea sa modifici filtrele!';
-$_['error_group']       = 'Numele grupului trebuie sa fie intre 1 si 64 de caractere!';
-$_['error_name']        = 'Numele filtrului trebuie sa fie intre 1 si 64 de caractere!';
-?>
+$_['error_permission']  = 'Avertisment: Nu aii permisiunea de a modifica filtrele!';
+$_['error_group']       = 'Numele grupului de filtre trebuie să conțină între 1 și 64 de caractere!';
+$_['error_name']        = 'Numele filtrului trebuie să conțină între 1 și 64 de caractere!';

@@ -1,22 +1,24 @@
 <?php
 // Heading
-$_['heading_title']    = 'Statutul Comenzii';
+$_['heading_title']    = 'Statusuri Comenzi';
 
 // Text
-$_['text_success']     = 'Succes: Ai modificat statutul comenzilor!';
+$_['text_success']     = 'Succes: Ai modificat statusurile comenzilor!';
+$_['text_list']        = 'Listă Statusuri Comenzi';
+$_['text_add']         = 'Adaugă Status Comandă';
+$_['text_edit']        = 'Editează status comandă';
 
 // Column
-$_['column_name']      = 'Numele Statutlui Comenzii';
+$_['column_name']      = 'Nume Status Comandă';
 $_['column_action']    = 'Acțiune';
 
 // Entry
-$_['entry_name']       = 'Numele Statutului Comenzii:';
+$_['entry_name']       = 'Nume Status Comandă';
 
 // Error
-$_['error_permission'] = 'Atenție: Nu aveți permisiunea să modificați statutul comenzilor!';
-$_['error_name']       = 'Numele Statutului Comenzii trebuie să fie cuprins între 3 și 32 de caractere!';
-$_['error_default']    = 'Atenție: Aceast statut al comenzii nu poate fi șters deoarece este folosit ca statut al comenzii implicit!';
-$_['error_download']   = 'Atenție: Aceast statut al comenzii nu poate fi șters deoarece este folosit ca statutl implicit de descărcare!';
-$_['error_store']      = 'Atenție: Aceast statut al comenzii nu poate fi șters deoarece este folosit de %s magazine!';
-$_['error_order']      = 'Atenție: Aceast statut al comenzii nu poate fi șters deoarece este folosit de %s comenzi!';
-?>
+$_['error_permission'] = 'Eroare: Nu ai permisiunile necesare pentru a modifica această pagină. Contactează administratorul pentru asistență. Daca ești administrator mergi in admin la grupuri de utilizatori și actualizează permisiunile!';
+$_['error_name']       = 'Numele statusului trebuie să fie cuprins între 3 și 32 de caractere!';
+$_['error_default']    = 'Atenție: Aceast status nu poate fi șters deoarece este folosit ca status implicit al comenzilor!';
+$_['error_download']   = 'Atenție: Aceast status nu poate fi șters deoarece este folosit ca statusul implicit pentru descărcări!';
+$_['error_store']      = 'Atenție: Aceast status nu poate fi șters deoarece este folosit de %s magazine!';
+$_['error_order']      = 'Atenție: Acest status nu poate fi șters deoarece este folosit de %s comenzi!';

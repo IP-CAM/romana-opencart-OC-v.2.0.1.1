@@ -1,9 +1,8 @@
 <?php
 // Text
-$_['text_subject']  = 'Ați trimis un voucher cadoul lui %s';
-$_['text_greeting'] = 'Felicitări! Ați primit un Cupon Cadou, în valoare de %s';
-$_['text_from']     = 'Acest Cupon Cadou v-a fost trimis de către %s';
-$_['text_message']  = 'Cum mesajul următor';
-$_['text_redeem']   = 'Ca să răscumpărați acest Cupon Cadou, scrieți codul de răscumpărare, care este <b>%s</b> apoi apăsați pe linkul de mai jos și cumpărați produsul pe care il doriți, folosind și voucherul cadou. Puteți să introduceți codul voucherului cadou pe pagina coșului de cumpăraturi, înainte să apăsați butonul cumpărare.';
-$_['text_footer']   = 'Vă rugăm să ne contactați pe această adresă de e-mail dacă aveți întrebări.';
-?>
+$_['text_subject']  = 'Ai primit un voucher cadoul de la %s';
+$_['text_greeting'] = 'Felicitări! Ai primit un Voucher Cadou, în valoare de %s';
+$_['text_from']     = 'Acest Voucher Cadou ți-a fost trimis de către %s';
+$_['text_message']  = 'Cu următorul mesaj';
+$_['text_redeem']   = 'Pentru a dobandi acest Voucher Cadou, scrie codul care este <b>%s</b> apoi apasă pe linkul de mai jos și cumpără produsul pe care il dorești, folosind și voucherul cadou. Poți să introduci codul voucherului cadou pe pagina coșului de cumpăraturi, înainte să apeși butonul cumpărare.';
+$_['text_footer']   = 'Terugăm să ne contactezi pe această adresă de e-mail dacă ai întrebări.';

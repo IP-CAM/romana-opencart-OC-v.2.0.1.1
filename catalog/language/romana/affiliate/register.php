@@ -1,5 +1,5 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']             = 'Program de afiliere';
 
 // Text
@@ -16,14 +16,14 @@ $_['text_paypal']               = 'PayPal';
 $_['text_bank']                 = 'Transfer bancar';
 $_['text_agree']                = 'Am citit și sunt de acord cu <a href="%s" class="agree"><b>%s</b></a>';
 
-// Intrări
+// Entry
 $_['entry_firstname']           = 'Prenume';
 $_['entry_lastname']            = 'Nume';
 $_['entry_email']               = 'E-Mail';
 $_['entry_telephone']           = 'Telefon';
 $_['entry_fax']                 = 'Fax';
 $_['entry_company']             = 'Companie';
-$_['entry_website']             = 'Web Site';
+$_['entry_website']             = 'Site web';
 $_['entry_address_1']           = 'Addresă 1';
 $_['entry_address_2']           = 'Addresă 2';
 $_['entry_postcode']            = 'Cod Poștal';
@@ -42,7 +42,7 @@ $_['entry_bank_account_number'] = 'Număr cont';
 $_['entry_password']            = 'Parolă:';
 $_['entry_confirm']             = 'Confirmă parola:';
 
-// Erori
+// Error
 $_['error_exists']              = 'Eroare: Adresa de e-mail este deja inregistrată!';
 $_['error_firstname']           = 'Prenumele trebuie să conțină între 1 și 32 de caractere!';
 $_['error_lastname']            = 'Numele trebuie să conțină între 1 și 32 de caractere!';

@@ -1,7 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'Acces Interzis!'; 
+$_['heading_title']   = 'Permisiune Refuzată!';
 
 // Text
-$_['text_permission'] = 'Nu aveți permisiunea să accesați această pagină, vă rugăm să contactați administratorul sistemului dumneavoastră.';
-?>
+$_['text_permission'] = 'Nu ai permisiunea de a accesa această pagină, te rugăm să consulţi administratorul de sistem.';

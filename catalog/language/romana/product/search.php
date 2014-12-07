@@ -1,8 +1,8 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']     = 'Căutare';
 $_['heading_tag']		= 'Etichetă - ';
- 
+
 // Text
 $_['text_search']       = 'Produse ce îndeplinesc criteriile de căutare';
 $_['text_keyword']      = 'Cuvinte cheie';
@@ -11,12 +11,12 @@ $_['text_sub_category'] = 'Caută și în subcategorii';
 $_['text_empty']        = 'Niciun produs nu îndeplineşte criteriile de căutare.';
 $_['text_quantity']     = 'Cantitate:';
 $_['text_manufacturer'] = 'Producător:';
-$_['text_model']        = 'Cod Produs:'; 
-$_['text_points']       = 'Puncte de recompensă:'; 
-$_['text_price']        = 'Preţ:'; 
-$_['text_tax']          = 'Fără TVA:'; 
-$_['text_reviews']      = 'Bazat pe %s recenzii.'; 
-$_['text_compare']      = 'Comparare produse (%s)'; 
+$_['text_model']        = 'Cod Produs:';
+$_['text_points']       = 'Puncte de recompensă:';
+$_['text_price']        = 'Preţ:';
+$_['text_tax']          = 'Fără TVA:';
+$_['text_reviews']      = 'Bazat pe %s recenzii.';
+$_['text_compare']      = 'Comparare produse (%s)';
 $_['text_sort']         = 'Sortare după:';
 $_['text_default']      = 'Implicit';
 $_['text_name_asc']     = 'Nume (A - Z)';
@@ -29,7 +29,6 @@ $_['text_model_asc']    = 'Model (A - Z)';
 $_['text_model_desc']   = 'Model (Z - A)';
 $_['text_limit']        = 'Produse pe pag:';
 
-// Intrări
+// Entry
 $_['entry_search']      = 'Căutare:';
 $_['entry_description'] = 'Caută și în descrierea produselor';
-?>

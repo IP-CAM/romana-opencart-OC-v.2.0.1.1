@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_home']    		 = 'Prima Pagină';
-$_['text_wishlist'] 	 = 'Wish List (%s)';
+$_['text_home']          = 'Prima Pagină';
+$_['text_wishlist']      = 'Wish List (%s)';
 $_['text_shopping_cart'] = 'Coşul meu';
 $_['text_category']      = 'Categorii';
 $_['text_account']       = 'Contul meu';

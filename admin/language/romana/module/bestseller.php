@@ -1,24 +1,22 @@
 <?php
 // Heading
-$_['heading_title']       = 'Cele Mai Vândute Produse';
+$_['heading_title']    = 'Cele mai vândute';
 
 // Text
-$_['text_module']         = 'Module';
-$_['text_success']        = 'Succes: Ai modificat modulul cele mai bine vândute produse!';
-$_['text_content_top']    = 'Conținutul De Sus';
-$_['text_content_bottom'] = 'Conținutul De Jos';
-$_['text_column_left']    = 'Coloana Din Stânga';
-$_['text_column_right']   = 'Coloana Din Dreapta';
+$_['text_module']      = 'Module';
+$_['text_success']     = 'Succes: Ai modificat modul cele mai vândute!';
+$_['text_edit']        = 'Editează modulul Cele mai văndute';
 
 // Entry
-$_['entry_limit']         = 'Limită:<br /><span style="color: #999;font-size: 12px;">nr de produse afisate de modul</span>';
-$_['entry_image']         = 'Imagine (l x Î):<br /><span style="color: #999;font-size: 12px;">dimensiunea imaginii produsului in acest modul</span>';
-$_['entry_layout']        = 'Layout:<br /><span style="color: #999;font-size: 12px;">pagina sau paginile in care se va afisa modulul</span>';
-$_['entry_position']      = 'Poziție:<br /><span style="color: #999;font-size: 12px;">poziția in care se va afisa modulul</span>';
-$_['entry_status']        = 'Status:<br /><span style="color: #999;font-size: 12px;">activează sau dezactivează modulul</span>';
-$_['entry_sort_order']    = 'Ordinea:<br /><span style="color: #999;font-size: 12px;">ordinea in care se afisează modulele intr-o poziție</span>';
+$_['entry_name']       = 'Nume Modul';
+$_['entry_limit']      = 'Limită';
+$_['entry_image']      = 'Imagine (L x Î) şi tipul redimensionării';
+$_['entry_width']      = 'Lăţime';
+$_['entry_height']     = 'Înălțime';
+$_['entry_status']     = 'Status';
 
 // Error
-$_['error_permission']    = 'Atenție: Nu aveți permisunea să modificați modulul cele mai bine văndute produse!';
-$_['error_image']         = 'Lățimea imaginii &amp; Dimensiunea înălțimii este necesară!';
-?>
+$_['error_permission'] = 'Eroare: Nu ai permisiunile necesare pentru a modifica această pagină. Contactează administratorul pentru asistență. Daca ești administrator mergi in admin la grupuri de utilizatori și actualizează permisiunile!';
+$_['error_name']       = 'Numele modulului trebuie să conțină între 3 şi 64 de caractere!';
+$_['error_width']      = 'Lăţimea necesară!';
+$_['error_height']     = 'Înălţimea necesare!';

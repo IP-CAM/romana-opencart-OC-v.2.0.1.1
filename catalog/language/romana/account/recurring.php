@@ -13,13 +13,13 @@ $_['text_transactions'] = 'Tranzacţii (Credit magazin)';
 $_['button_return'] = 'Returnează';
 $_['text_empty_transactions'] = 'Nicio tranzacție pentru acest abonament';
 
-$_['column_created'] = 'Creat';
+$_['column_date_added'] = 'Creat';
 $_['column_type'] = 'Tip';
 $_['column_amount'] = 'Valoare';
 $_['column_status'] = 'Status';
 $_['column_product'] = 'Produs';
 $_['column_action'] = 'Acţiune';
-$_['column_profile_id'] = 'ID profil';
+$_['column_recurring_id'] = 'ID profil';
 
 $_['text_recurring_detail'] = 'Detalii plăţi periodice';
 $_['text_recurring_id'] = 'ID profil: ';
@@ -36,7 +36,7 @@ $_['text_status_suspended'] = 'Suspendat';
 $_['text_status_expired'] = 'Expirat';
 $_['text_status_pending'] = 'În aşteptare';
 
-$_['text_transaction_created'] = 'Creat';
+$_['text_transaction_date_added'] = 'Creat';
 $_['text_transaction_payment'] = 'Plată';
 $_['text_transaction_outstanding_payment'] = 'Plată de efectuat';
 $_['text_transaction_skipped'] = 'Plată neefectuată';
@@ -49,4 +49,4 @@ $_['text_transaction_expired'] = 'Expirat';
 
 $_['error_not_cancelled'] = 'Eroare: %s';
 $_['error_not_found'] = 'Abonamentul nu poate fi închis';
-$_['success_cancelled'] = 'Plata periodică a fost închisă';
+$_['text_cancelled'] = 'Abonamentul a fost anulat';

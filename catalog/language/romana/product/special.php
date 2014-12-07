@@ -1,16 +1,16 @@
 <?php
-// Titlu
+// Heading
 $_['heading_title']     = 'Oferte speciale';
 
 // Text
 $_['text_empty']        = 'Momentan nu avem oferte speciale.';
 $_['text_quantity']     = 'Cantitate:';
 $_['text_manufacturer'] = 'Producător:';
-$_['text_model']        = 'Cod Produs:'; 
-$_['text_points']       = 'Puncte de recompensă:'; 
-$_['text_price']        = 'Preţ:'; 
-$_['text_tax']          = 'Fără TVA:'; 
-$_['text_compare']      = 'Comparare produse (%s)'; 
+$_['text_model']        = 'Cod Produs:';
+$_['text_points']       = 'Puncte de recompensă:';
+$_['text_price']        = 'Preţ:';
+$_['text_tax']          = 'Fără TVA:';
+$_['text_compare']      = 'Comparare produse (%s)';
 $_['text_sort']         = 'Sortare după:';
 $_['text_default']      = 'Implicit';
 $_['text_name_asc']     = 'Nume (A - Z)';

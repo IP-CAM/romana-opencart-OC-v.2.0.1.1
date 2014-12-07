@@ -1,8 +1,7 @@
 <?php
 // Text
-$_['text_title'] = 'Card de credit/debit (Plata procesată de PayPal)';
-$_['text_secure_connection'] = 'Se creează o conexiune securizată...';
+$_['text_title']				= 'Card de credit/debit (Plata procesată de PayPal)';
+$_['text_secure_connection']	= 'Se creează o conexiune securizată...';
 
-//Erori
-$_['error_connection'] = "Conectarea la PayPal a eșuat. Contactează administratorul magazinului pentru asistență sau alege o altă metodă de plată.";
-?>
+// Error
+$_['error_connection']			= 'Conectarea la PayPal a eșuat. Contactează administratorul magazinului pentru asistență sau alege o altă metodă de plată.';

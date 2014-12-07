@@ -1,17 +1,20 @@
 <?php
 // Heading
-$_['heading_title']    = 'Transport Gratuit';
+$_['heading_title']    = 'Livrare Gratuită';
 
-// Text 
-$_['text_shipping']    = 'Transport';
-$_['text_success']     = 'Succes: Ai modificat transportul gratuit!';
+// Text
+$_['text_shipping']    = 'Livrare';
+$_['text_success']     = 'Succes: Ai modificat livrarea gratuita!';
+$_['text_edit']        = 'Editează livrarea gratuită';
 
 // Entry
-$_['entry_total']      = 'Total:<br /><span class="help">Valoarea sub-totală necesară înainte ca modulul de transport gratuit sa fie disponibil.</span>';
-$_['entry_geo_zone']   = 'Zona Geografică:';
-$_['entry_status']     = 'Status:';
-$_['entry_sort_order'] = 'Selectează Ordinea:';
+$_['entry_total']      = 'Total';
+$_['entry_geo_zone']   = 'Zona Geografică';
+$_['entry_status']     = 'Status';
+$_['entry_sort_order'] = 'Ordine Sortare';
+
+// Help
+$_['help_total']       = 'Suma pe care subtotalul trebuie sa o atinga inainte ca aceasta metoda de livrare sa devina disponibila.';
 
 // Error
-$_['error_permission'] = 'Atenție: Nu ai permisiunea să modifici transportul gratuit!';
-?>
+$_['error_permission'] = 'Eroare: Nu ai permisiunile necesare pentru a modifica această pagină. Contactează administratorul pentru asistență. Daca ești administrator mergi in admin la grupuri de utilizatori și actualizează permisiunile!';

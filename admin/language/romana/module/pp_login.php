@@ -1,42 +1,35 @@
 <?php
 // Heading
-$_['heading_title']         = 'Log In with PayPal';
+$_['heading_title']        = 'Autentificare cu PayPal';
 
 //Text
-$_['text_module']           = 'Modules';
-$_['text_success']          = 'Success: You have modified module Log In with PayPal!';
-$_['text_content_top']      = 'Content Top';
-$_['text_content_bottom']   = 'Content Bottom';
-$_['text_column_left']      = 'Column Left';
-$_['text_column_right']     = 'Column Right';
-$_['text_grey_button']      = 'Grey';
-$_['text_blue_button']      = 'Blue (Recommended)';
-$_['text_return_url']       = 'Return URL';
+$_['text_module']          = 'Module';
+$_['text_success']         = 'Succes: Ai modificat modulul de autentificare cu PayPal!';
+$_['text_edit']            = 'Editează modulul de autentificare cu PayPal';
+$_['text_button_grey']     = 'Gri';
+$_['text_button_blue']     = 'Albastru (recomandat)';
 
 //Entry
-$_['entry_client_id']       = 'Client ID';
-$_['entry_secret']          = 'Secret';
-$_['entry_sandbox']         = 'Sandbox Mode';
-$_['entry_logging']         = 'Debug Logging';
-$_['entry_customer_group']  = 'Customer Group';
-$_['entry_button']          = 'Button Colour';
-$_['entry_seamless']        = 'Allow "Seamless Checkout"';
-$_['entry_status']          = 'Status';
-$_['entry_layout']          = 'Layout';
-$_['entry_position']        = 'Position';
-$_['entry_status']          = 'Status';
-$_['entry_sort_order']      = 'Sort Order';
-$_['entry_locale']          = 'Locale - %s';
+$_['entry_client_id']      = 'ID Client';
+$_['entry_secret']         = 'Secret';
+$_['entry_sandbox']        = 'Mod sandbox';
+$_['entry_debug']          = 'Logare pentru depanare';
+$_['entry_customer_group'] = 'Grup Clienți';
+$_['entry_button']         = 'Culoare buton';
+$_['entry_seamless']       = 'Permite "Comandă Seamless"';
+$_['entry_locale']         = 'Localizare';
+$_['entry_return_url']     = 'Redirecționare către URL-ul';
+$_['entry_status']         = 'Status';
 
 //Help
-$_['help_sandbox']          = 'Use sandbox (testing) environment?';
-$_['help_customer_group']   = 'For new customers, which Customer Group should they get created as?';
-$_['help_seamless']         = 'Allows auto-login when customers choose PayPal Express Checkout. To use this, the option must be enabled in your Log in With PayPal account. You must also use the same account as the one used in Express Checkout.';
-$_['help_locale']           = 'This is the PayPal locale setting for your stores %s language';
-$_['help_debug_logging']    = 'Enabling this will allow data to be added to your error log to help debug any problems.';
-$_['help_return_url']       = 'This needs to be added in the PayPal app configuration under app redirect URLs.';
+$_['help_sandbox']         = 'Utilizeaza modul de testare (sandbox)?';
+$_['help_customer_group']  = 'In ce grup vor fi adăugați clienții noi?';
+$_['help_debug_logging']   = 'Activând acest lucru vei permite adăugarea de informatii in log-ul tău de erori pentru a ajuta identificarea problemelor.';
+$_['help_seamless']        = 'Permite auto-login atunci când clienţii aleg Comanda PayPal Express. Pentru a utiliza acest lucru, trebuie activată opţiunea contul tău de logare cu PayPal. De asemenea, trebuie să utilizezi acelaşi cont ca cel folosit în PayPal Express Checkout.';
+$_['help_locale']          = 'Aceasta este setarea de localizare PayPal pentru limba magazinului tău';
+$_['help_return_url']      = 'Aceasta trebuie sa fie adăugată în setările aplicației PayPalsub adresele de redirecţionare.';
 
 //Error
-$_['error_permission']      = 'Warning: You do not have permission to modify module Log In with PayPal!';
-$_['error_client_id']       = 'Client ID required!';
-$_['error_secret']          = 'Secret required!';
+$_['error_permission']     = 'Eroare: Nu ai permisiunile necesare pentru a modifica această pagină. Contactează administratorul pentru asistență. Daca ești administrator mergi in admin la grupuri de utilizatori și actualizează permisiunile!';
+$_['error_client_id']      = 'ID Client necesar!';
+$_['error_secret']         = 'Secret Necesar!';

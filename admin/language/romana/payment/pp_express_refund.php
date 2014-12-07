@@ -1,22 +1,20 @@
 <?php
-//Heading
-$_['heading_title']             = 'Refund Transaction';
+// Heading
+$_['heading_title']					= 'Tranzacţie de restituire';
 
-//Text
-$_['text_pp_express']           = 'PayPal Express Checkout';
-$_['text_current_refunds']      = 'Refunds have already been done for this transaction. The max refund is';
+// Text
+$_['text_pp_express']				= 'PayPal Express';
+$_['text_current_refunds']			= 'Restituiri au fost deja făcute pentru această tranzacţie. Restituirea maximă este';
 
-//Button
-$_['btn_cancel']                = 'Cancel';
-$_['btn_refund']                = 'Issue refund';
+// Entry
+$_['entry_transaction_id']			= 'ID Tranzacție';
+$_['entry_full_refund']				= 'Rambursare Totală';
+$_['entry_amount']					= 'Suma';
+$_['entry_message']					= 'Mesaj';
 
-//Form entry
-$_['entry_transaction_id']      = 'Transaction ID';
-$_['entry_full_refund']         = 'Full refund';
-$_['entry_amount']              = 'Amount';
-$_['entry_message']             = 'Message';
+// Button
+$_['button_refund']					= 'Emite Restituire';
 
-//Error
-$_['error_partial_amt']         = 'You must enter a partial refund amount';
-$_['error_data']                = 'Data missing from request';
-?>
+// Error
+$_['error_partial_amt']				= 'Trebuie să introduci o sumă partială a rambursării';
+$_['error_data']					= 'Date lipsă de la solicitare';
